@@ -134,6 +134,23 @@ app.get('/status/:id', async (req: Request, res: Response) => {
           .bar {
             width: 90vw;
             max-width: 400px;
+            import fs from 'fs';
+            const GENERATED_URLS_PATH = 'generatedUrls.json';
+
+            function loadGeneratedUrls() {
+              try {
+                const data = fs.readFileSync(GENERATED_URLS_PATH, 'utf-8');
+                return JSON.parse(data);
+              } catch {
+                return {};
+              }
+            }
+
+            function saveGeneratedUrls(urls: any) {
+              try {
+                fs.writeFileSync(GENERATED_URLS_PATH, JSON.stringify(urls));
+              } catch {}
+            }
             background: #0a0a0f;
             border-radius: 12px 32px 12px 32px/16px 32px 16px 32px;
             overflow: hidden;
@@ -142,6 +159,7 @@ app.get('/status/:id', async (req: Request, res: Response) => {
             display: flex;
             align-items: center;
             justify-content: center;
+            const generatedUrls: Record<string, { sheetId: string; rangeMap: any; iconFile?: string }> = loadGeneratedUrls();
             filter: url(#scribble);
           }
           .fill {
