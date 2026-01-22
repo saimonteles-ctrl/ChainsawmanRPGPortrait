@@ -11,7 +11,7 @@ const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const CREDENTIALS_PATH = './portraitchainsaw-e460097bd347.json';
+const CREDENTIALS_PATH = 'portraitchainsaw-e460097bd347.json';
 const generatedUrls: Record<string, { sheetId: string; rangeMap: any; iconFile?: string }> = {};
 
 async function getSheetData(sheetId: string, rangeMap: any) {
