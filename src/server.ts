@@ -11,7 +11,7 @@ const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const CREDENTIALS_PATH = 'portraitchainsaw-e460097bd347.json';
+const CREDENTIALS_PATH = './portraitchainsaw-e460097bd347.json';
 const generatedUrls: Record<string, { sheetId: string; rangeMap: any; iconFile?: string }> = {};
 
 async function getSheetData(sheetId: string, rangeMap: any) {
@@ -134,23 +134,7 @@ app.get('/status/:id', async (req: Request, res: Response) => {
           .bar {
             width: 90vw;
             max-width: 400px;
-            import fs from 'fs';
-            const GENERATED_URLS_PATH = 'generatedUrls.json';
-
-            function loadGeneratedUrls() {
-              try {
-                const data = fs.readFileSync(GENERATED_URLS_PATH, 'utf-8');
-                return JSON.parse(data);
-              } catch {
-                return {};
-              }
-            }
-
-            function saveGeneratedUrls(urls: any) {
-              try {
-                fs.writeFileSync(GENERATED_URLS_PATH, JSON.stringify(urls));
-              } catch {}
-            }
+            height: 32px;
             background: #0a0a0f;
             border-radius: 12px 32px 12px 32px/16px 32px 16px 32px;
             overflow: hidden;
@@ -159,7 +143,7 @@ app.get('/status/:id', async (req: Request, res: Response) => {
             display: flex;
             align-items: center;
             justify-content: center;
-            const generatedUrls: Record<string, { sheetId: string; rangeMap: any; iconFile?: string }> = loadGeneratedUrls();
+            z-index: 0;
             filter: url(#scribble);
           }
           .fill {
@@ -199,7 +183,6 @@ app.get('/status/:id', async (req: Request, res: Response) => {
             background: #00ff57;
             filter: url(#scribble);
             border-radius: 12px 32px 12px 32px/16px 32px 16px 32px;
-              saveGeneratedUrls(generatedUrls);
           }
           .pe {
             background: #ffb347;

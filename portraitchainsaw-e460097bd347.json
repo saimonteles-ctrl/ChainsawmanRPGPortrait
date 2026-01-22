@@ -1,1 +1,13 @@
-// ...existing code from project root, moved to src/
+{
+  "type": "service_account",
+  "project_id": "portraitchainsaw",
+  "private_key_id": "e460097bd347c80026f10978c74d6ce0322cc4f8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDlOnlKZ3fiDvkw\nWAM8ZiGvaUZveliCAzy+mCQrPA6fFRB7nnW+hQeQh6EYkKnHs5EufIcX65Hl8ATr\nHleNUztpqnwc6tBeunCv+t9pmbDudYqj9HPDPOGtiHhGNnGMoxdWjeC5/ymC2UqD\nLB5lygQv6bmhj2m9017KJ6875lRRsDWS2fqZQDjivrdTL0tD6RHwTR496+UVlUHs\nr7CLOP8m6+lb6el6PzosMUOC6JAWVV8tttAt8Sz72YCq+b+fpkueDghBmKXsE8WF\n4Db2NHYUkcsukb2ws8Cg5I+tTHULgMR5XtDIZdaCdjYaGZtiJ1QrJSSYwoIjVImP\ntAB/ATdFAgMBAAECggEAF1cR3IqWgVUG+G4tviukCGlOu7EYa/yKZdm17RULZBVP\n/VZQJNsEvymgNJEeSHA3OyWA1+WrkF8VER+gyIoOBZ9PTd524v5W1QRVVTpJ8q3T\nNQiB9QIw9Gtt27BVdX1xteVyWV3qyyD23k5StgiQzpQcy59/o81u3GSYCiBUu5Bl\nL7FyoZHguHIqSV4nv7a4UN6W3uIlV2jc3hxSak7NLZzbDcd6+R0kGS9HX0KK6Iwu\n7owATEUlywtxy8OjH1uxPVS5YSP6EEViAy4E3f6yGFSpxub6uVY4XEVTGpOH6UWw\n7rYP3Pl61utMWhR9djgq7INZxSQowZuVNhI6cPJLTQKBgQD+iv9dm7UeQMCwy4yt\nnShc4ljP7NiFs5khGfvzqAENwCZSB+85iuV5/hX97WMcUTQpPj+UUwExr9t0N/IS\nzuaqmjJXKlZDa+t/3EMGGP0cjQvNG1Jj8Kmudbjbir4br84eeXJ/mP3nJUCdTew0\nvH+9YEPyMs+0mYDMeFICDeCO/wKBgQDmimF8sAeLVR25XDqlZ+UwmdTbl28NiC/o\ni3QmNbEdY3iliVxez8XjsTf8GOGiJerel4n/4fDcj20n1TlcNrnZ++sWLxuXZPqR\n/ASKXaLDpFf9jgUq25Yl3mEDvj/WqT7vpG0esoT7vX8hIIt8aQ3wAACutzSGCaQ2\nkEmwrBo9uwKBgQCzjDBdQzwavuosyyfMPxL9kdu7rwF8LhdRthZ25Ib5wBRHwLkK\nCeOcjZHNr+k9TDpS7UnDwlkRR06xR9VFVxR2OpZPzdlTbYiMhD3yyyWfQg6U+zS+\nsj++g+OFWPSIaxYlgN03DB/tL+XID/MRr/UbDBBhg13nsm+byzNtp4RC2QKBgQDT\nWtyDRpK0D4WfsUlm6Tg6dV2rMEs0ub1KUcdbXHATRGWQRb00gwGmfIuaCGmbkW2h\nQobW25pJawiksxvSSa3bhdSB0xBVnNMH0WeMPsoA2QN+RpzALO6bqyOAHgRC1YkI\nhNMxiHLYpGMPyNl4ZovLkwUNKJLzq5UsHN4iJbYtDwKBgQCszrfD89cNJSrWcp7t\nQ2PqhpZaGnSwlvPIMZhhy/b1yE45oG4c9r5m0rDzNtkRa38IVCrgYHTjZ9d+6jYJ\ng64+PrtYQSLcpsIkZ9RsYumd0GD4fAcKBS4sjNcbFoBSb5LQhkibwB4KyQrSyRbU\nb8VVASFwT7HSmynvvCfrFVoUaA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "servi-osportrait@portraitchainsaw.iam.gserviceaccount.com",
+  "client_id": "100499924382718975192",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/servi-osportrait%40portraitchainsaw.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
