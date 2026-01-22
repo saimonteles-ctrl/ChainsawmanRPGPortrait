@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: chainsawmanrpgportrait
+    env: node
+    buildCommand: npm install
+    startCommand: npm run dev
+    rootDir: src
